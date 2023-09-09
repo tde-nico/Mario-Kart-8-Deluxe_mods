@@ -1,0 +1,15 @@
+@nsobid-4B7A0BB5AE57E627B63E2247F9470E57
+
+# Mario Kart 8 Deluxe [0100152000022000] v2.4.0 - 60FPS in Split Screen
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Removes Double Buffer from Multi-player modes
+
+@enabled
+00b8173c 970000EA
+@stop
+
+
+
